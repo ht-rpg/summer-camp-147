@@ -7,13 +7,34 @@ h1 {
   color: #eeba30;
 }
 
+.link {
+  text-decoration: none;
+  color: #fff;
+  cursor: default;
+}
+
+.inicio {
+  margin: auto;
+  width: 650px;
+  height: 450px;
+  background-color: #555;
+  border-radius: 6px;
+}
+
+.textoInicio {
+  padding: 160px 0;
+  font-size: 46px;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+}
+
 /* Popup container */
 .popup {
   position: relative;
   left: 53%;
   top: -4rem;
   display: inline-block;
-  cursor: pointer;
 }
 
 /* The actual popup (appears on top) */
@@ -75,7 +96,6 @@ h1 {
   left: 20%;
   top: 4rem;
   display: inline-block;
-  cursor: pointer;
 }
 
 /* The actual popup (appears on top) */
